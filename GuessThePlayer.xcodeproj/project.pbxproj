@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2212AC9E1AA5321600EC877E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212AC9D1AA5321600EC877E /* main.m */; };
+		2212ACA11AA5321600EC877E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ACA01AA5321600EC877E /* AppDelegate.m */; };
+		2212ACA41AA5321600EC877E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ACA31AA5321600EC877E /* ViewController.m */; };
+		2212ACA71AA5321600EC877E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2212ACA51AA5321600EC877E /* Main.storyboard */; };
+		2212ACA91AA5321600EC877E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2212ACA81AA5321600EC877E /* Images.xcassets */; };
+		2212ACAC1AA5321600EC877E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2212ACAA1AA5321600EC877E /* LaunchScreen.xib */; };
+		2212ACD21AA53DAC00EC877E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212ACD11AA53DAC00EC877E /* RootViewController.m */; };
+		22517A011B9851BF00D43F23 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22517A001B9851BF00D43F23 /* sound.mp3 */; };
+		22517A941B9852E800D43F23 /* 11888.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A031B9852E800D43F23 /* 11888.png */; };
+		22517A951B9852E800D43F23 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A041B9852E800D43F23 /* 5.jpg */; };
+		22517A961B9852E800D43F23 /* 5650.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A051B9852E800D43F23 /* 5650.png */; };
+		22517A971B9852E800D43F23 /* Black_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A061B9852E800D43F23 /* Black_button.png */; };
+		22517A981B9852E800D43F23 /* Car-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A071B9852E800D43F23 /* Car-50.png */; };
+		22517A991B9852E800D43F23 /* Alfa Romeo.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A091B9852E800D43F23 /* Alfa Romeo.png */; };
+		22517A9A1B9852E800D43F23 /* Aston Martin.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A0A1B9852E800D43F23 /* Aston Martin.png */; };
+		22517A9B1B9852E800D43F23 /* Audi R8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A0B1B9852E800D43F23 /* Audi R8.jpg */; };
+		22517A9C1B9852E800D43F23 /* Audi RS6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A0C1B9852E800D43F23 /* Audi RS6.jpeg */; };
+		22517A9D1B9852E800D43F23 /* Audi RS7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A0D1B9852E800D43F23 /* Audi RS7.jpg */; };
+		22517A9E1B9852E800D43F23 /* Bentley Continental.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A0E1B9852E800D43F23 /* Bentley Continental.jpeg */; };
+		22517A9F1B9852E800D43F23 /* Bentley.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A0F1B9852E800D43F23 /* Bentley.png */; };
+		22517AA01B9852E800D43F23 /* BMW M3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A101B9852E800D43F23 /* BMW M3.jpg */; };
+		22517AA11B9852E800D43F23 /* BMW M5 F10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A111B9852E800D43F23 /* BMW M5 F10.jpg */; };
+		22517AA21B9852E800D43F23 /* Bugatti Veyron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A121B9852E800D43F23 /* Bugatti Veyron.jpg */; };
+		22517AA31B9852E800D43F23 /* Bugatti.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A131B9852E800D43F23 /* Bugatti.png */; };
+		22517AA41B9852E800D43F23 /* Buick.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A141B9852E800D43F23 /* Buick.png */; };
+		22517AA51B9852E800D43F23 /* Cadillac.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A151B9852E800D43F23 /* Cadillac.png */; };
+		22517AA61B9852E800D43F23 /* Chrysler.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A161B9852E800D43F23 /* Chrysler.png */; };
+		22517AA71B9852E800D43F23 /* Corvette Hennessey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A171B9852E800D43F23 /* Corvette Hennessey.jpg */; };
+		22517AA81B9852E800D43F23 /* Dodge Viper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A181B9852E800D43F23 /* Dodge Viper.jpg */; };
+		22517AA91B9852E800D43F23 /* Dodge Viper.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A191B9852E800D43F23 /* Dodge Viper.png */; };
+		22517AAA1B9852E800D43F23 /* Dodge.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A1A1B9852E800D43F23 /* Dodge.png */; };
+		22517AAB1B9852E800D43F23 /* Ferrari Italia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A1B1B9852E800D43F23 /* Ferrari Italia.jpg */; };
+		22517AAC1B9852E800D43F23 /* Ferrari.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A1C1B9852E800D43F23 /* Ferrari.png */; };
+		22517AAD1B9852E800D43F23 /* Fiat.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A1D1B9852E800D43F23 /* Fiat.png */; };
+		22517AAE1B9852E800D43F23 /* Ford Mustang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A1E1B9852E800D43F23 /* Ford Mustang.jpg */; };
+		22517AAF1B9852E800D43F23 /* Ford Mustang.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A1F1B9852E800D43F23 /* Ford Mustang.png */; };
+		22517AB01B9852E800D43F23 /* Honda Accord.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A201B9852E800D43F23 /* Honda Accord.jpg */; };
+		22517AB11B9852E800D43F23 /* Honda.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A211B9852E800D43F23 /* Honda.png */; };
+		22517AB21B9852E800D43F23 /* Hyundai.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A221B9852E800D43F23 /* Hyundai.png */; };
+		22517AB31B9852E800D43F23 /* Lamborghini Aventador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A231B9852E800D43F23 /* Lamborghini Aventador.jpg */; };
+		22517AB41B9852E800D43F23 /* Lamborghini Huracan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A241B9852E800D43F23 /* Lamborghini Huracan.jpeg */; };
+		22517AB51B9852E800D43F23 /* Lamborghini Veneno.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A251B9852E800D43F23 /* Lamborghini Veneno.jpeg */; };
+		22517AB61B9852E800D43F23 /* Lamborghini.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A261B9852E800D43F23 /* Lamborghini.png */; };
+		22517AB71B9852E800D43F23 /* Lancia.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A271B9852E800D43F23 /* Lancia.png */; };
+		22517AB81B9852E800D43F23 /* Landrover.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A281B9852E800D43F23 /* Landrover.png */; };
+		22517AB91B9852E800D43F23 /* Lotus.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A291B9852E800D43F23 /* Lotus.png */; };
+		22517ABA1B9852E800D43F23 /* Maserati.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A2A1B9852E800D43F23 /* Maserati.png */; };
+		22517ABB1B9852E800D43F23 /* Mazda 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A2B1B9852E800D43F23 /* Mazda 6.jpg */; };
+		22517ABC1B9852E800D43F23 /* Mazda.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A2C1B9852E800D43F23 /* Mazda.png */; };
+		22517ABD1B9852E800D43F23 /* Mercedes Benz.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A2D1B9852E800D43F23 /* Mercedes Benz.png */; };
+		22517ABE1B9852E800D43F23 /* MG.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A2E1B9852E800D43F23 /* MG.png */; };
+		22517ABF1B9852E800D43F23 /* Mini.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A2F1B9852E800D43F23 /* Mini.png */; };
+		22517AC01B9852E800D43F23 /* Mitsubishi Lancer .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A301B9852E800D43F23 /* Mitsubishi Lancer .jpg */; };
+		22517AC11B9852E800D43F23 /* Mitsubishi Pajero .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A311B9852E800D43F23 /* Mitsubishi Pajero .jpg */; };
+		22517AC21B9852E800D43F23 /* Mitsubishi.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A321B9852E800D43F23 /* Mitsubishi.png */; };
+		22517AC31B9852E800D43F23 /* Mrcedes CLS 63.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A331B9852E800D43F23 /* Mrcedes CLS 63.jpg */; };
+		22517AC41B9852E800D43F23 /* Nissan GT-R R35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A341B9852E800D43F23 /* Nissan GT-R R35.jpg */; };
+		22517AC51B9852E800D43F23 /* Pagani Zonda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A351B9852E800D43F23 /* Pagani Zonda.jpg */; };
+		22517AC61B9852E800D43F23 /* Porsche Carrera .jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A361B9852E800D43F23 /* Porsche Carrera .jpeg */; };
+		22517AC71B9852E800D43F23 /* Porsche Panamera .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A371B9852E800D43F23 /* Porsche Panamera .jpg */; };
+		22517AC81B9852E800D43F23 /* Skoda Octavia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A381B9852E800D43F23 /* Skoda Octavia.jpg */; };
+		22517AC91B9852E800D43F23 /* Volvo.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A391B9852E800D43F23 /* Volvo.png */; };
+		22517ACA1B9852E800D43F23 /* VW.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A3A1B9852E800D43F23 /* VW.png */; };
+		22517ACB1B9852E800D43F23 /* Andorra.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A3C1B9852E800D43F23 /* Andorra.png */; };
+		22517ACC1B9852E800D43F23 /* Argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A3D1B9852E800D43F23 /* Argentina.png */; };
+		22517ACD1B9852E800D43F23 /* Armenia.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A3E1B9852E800D43F23 /* Armenia.png */; };
+		22517ACE1B9852E800D43F23 /* Austria.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A3F1B9852E800D43F23 /* Austria.png */; };
+		22517ACF1B9852E800D43F23 /* Azerbaijan.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A401B9852E800D43F23 /* Azerbaijan.png */; };
+		22517AD01B9852E800D43F23 /* Belarus.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A411B9852E800D43F23 /* Belarus.png */; };
+		22517AD11B9852E800D43F23 /* Belgium.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A421B9852E800D43F23 /* Belgium.png */; };
+		22517AD21B9852E800D43F23 /* Brazil.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A431B9852E800D43F23 /* Brazil.png */; };
+		22517AD31B9852E800D43F23 /* Bulgaria.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A441B9852E800D43F23 /* Bulgaria.png */; };
+		22517AD41B9852E800D43F23 /* Cameroon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A451B9852E800D43F23 /* Cameroon.png */; };
+		22517AD51B9852E800D43F23 /* Canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A461B9852E800D43F23 /* Canada.png */; };
+		22517AD61B9852E800D43F23 /* Chili.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A471B9852E800D43F23 /* Chili.png */; };
+		22517AD71B9852E800D43F23 /* China.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A481B9852E800D43F23 /* China.png */; };
+		22517AD81B9852E800D43F23 /* Columbia.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A491B9852E800D43F23 /* Columbia.png */; };
+		22517AD91B9852E800D43F23 /* Croatia 06-22-30-730.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A4A1B9852E800D43F23 /* Croatia 06-22-30-730.png */; };
+		22517ADA1B9852E800D43F23 /* Czech Republic.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A4B1B9852E800D43F23 /* Czech Republic.png */; };
+		22517ADB1B9852E800D43F23 /* Espana.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A4C1B9852E800D43F23 /* Espana.png */; };
+		22517ADC1B9852E800D43F23 /* France.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A4D1B9852E800D43F23 /* France.png */; };
+		22517ADD1B9852E800D43F23 /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A4E1B9852E800D43F23 /* Germany.png */; };
+		22517ADE1B9852E800D43F23 /* Hungary.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A4F1B9852E800D43F23 /* Hungary.png */; };
+		22517ADF1B9852E800D43F23 /* Italy.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A501B9852E800D43F23 /* Italy.png */; };
+		22517AE01B9852E800D43F23 /* Japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A511B9852E800D43F23 /* Japan.png */; };
+		22517AE11B9852E800D43F23 /* Moldova.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A521B9852E800D43F23 /* Moldova.png */; };
+		22517AE21B9852E800D43F23 /* Netherland.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A531B9852E800D43F23 /* Netherland.png */; };
+		22517AE31B9852E800D43F23 /* Portugal.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A541B9852E800D43F23 /* Portugal.png */; };
+		22517AE41B9852E800D43F23 /* Romania.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A551B9852E800D43F23 /* Romania.png */; };
+		22517AE51B9852E800D43F23 /* Serbia.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A561B9852E800D43F23 /* Serbia.png */; };
+		22517AE61B9852E800D43F23 /* Sweden.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A571B9852E800D43F23 /* Sweden.png */; };
+		22517AE71B9852E800D43F23 /* Turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A581B9852E800D43F23 /* Turkey.png */; };
+		22517AE81B9852E800D43F23 /* Ukraine.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A591B9852E800D43F23 /* Ukraine.png */; };
+		22517AE91B9852E800D43F23 /* Flag-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A5A1B9852E800D43F23 /* Flag-50.png */; };
+		22517AEA1B9852E800D43F23 /* Football-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A5B1B9852E800D43F23 /* Football-50.png */; };
+		22517AEB1B9852E800D43F23 /* Play-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A5C1B9852E800D43F23 /* Play-50 (1).png */; };
+		22517AEC1B9852E800D43F23 /* png-button-for-websites2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A5D1B9852E800D43F23 /* png-button-for-websites2.png */; };
+		22517AED1B9852E800D43F23 /* Settings-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A5E1B9852E800D43F23 /* Settings-50 (1).png */; };
+		22517AEE1B9852E800D43F23 /* Arsenal FC.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A601B9852E800D43F23 /* Arsenal FC.ico */; };
+		22517AEF1B9852E800D43F23 /* Aston Villa.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A611B9852E800D43F23 /* Aston Villa.ico */; };
+		22517AF01B9852E800D43F23 /* Athletic Bilbao.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A621B9852E800D43F23 /* Athletic Bilbao.ico */; };
+		22517AF11B9852E800D43F23 /* Atletico Madrid.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A631B9852E800D43F23 /* Atletico Madrid.ico */; };
+		22517AF21B9852E800D43F23 /* Blackburn Rovers.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A641B9852E800D43F23 /* Blackburn Rovers.ico */; };
+		22517AF31B9852E800D43F23 /* Bolton Wanderers.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A651B9852E800D43F23 /* Bolton Wanderers.ico */; };
+		22517AF41B9852E800D43F23 /* Celta de Vigo.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A661B9852E800D43F23 /* Celta de Vigo.ico */; };
+		22517AF51B9852E800D43F23 /* Chelsea FC.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A671B9852E800D43F23 /* Chelsea FC.ico */; };
+		22517AF61B9852E800D43F23 /* Deportivo Alaves.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A681B9852E800D43F23 /* Deportivo Alaves.ico */; };
+		22517AF71B9852E800D43F23 /* Deportivo La Coruna.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A691B9852E800D43F23 /* Deportivo La Coruna.ico */; };
+		22517AF81B9852E800D43F23 /* Espanyol.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A6A1B9852E800D43F23 /* Espanyol.ico */; };
+		22517AF91B9852E800D43F23 /* Everton FC.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A6B1B9852E800D43F23 /* Everton FC.ico */; };
+		22517AFA1B9852E800D43F23 /* FC Barcelona.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A6C1B9852E800D43F23 /* FC Barcelona.ico */; };
+		22517AFB1B9852E800D43F23 /* Fulham FC.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A6D1B9852E800D43F23 /* Fulham FC.ico */; };
+		22517AFC1B9852E800D43F23 /* Getafe.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A6E1B9852E800D43F23 /* Getafe.ico */; };
+		22517AFD1B9852E800D43F23 /* Liverpool FC.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A6F1B9852E800D43F23 /* Liverpool FC.ico */; };
+		22517AFE1B9852E800D43F23 /* Malaga CF.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A701B9852E800D43F23 /* Malaga CF.ico */; };
+		22517AFF1B9852E800D43F23 /* Manchester City.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A711B9852E800D43F23 /* Manchester City.ico */; };
+		22517B001B9852E800D43F23 /* Manchester United.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A721B9852E800D43F23 /* Manchester United.ico */; };
+		22517B011B9852E800D43F23 /* Newcastle United.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A731B9852E800D43F23 /* Newcastle United.ico */; };
+		22517B021B9852E800D43F23 /* Norwich City.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A741B9852E800D43F23 /* Norwich City.ico */; };
+		22517B031B9852E800D43F23 /* Osasuna.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A751B9852E800D43F23 /* Osasuna.ico */; };
+		22517B041B9852E800D43F23 /* Queens Park Rangers.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A761B9852E800D43F23 /* Queens Park Rangers.ico */; };
+		22517B051B9852E800D43F23 /* Rayo Vallecano.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A771B9852E800D43F23 /* Rayo Vallecano.ico */; };
+		22517B061B9852E800D43F23 /* Real Betis.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A781B9852E800D43F23 /* Real Betis.ico */; };
+		22517B071B9852E800D43F23 /* Real Madrid.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A791B9852E800D43F23 /* Real Madrid.ico */; };
+		22517B081B9852E800D43F23 /* Real Mallorca.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A7A1B9852E800D43F23 /* Real Mallorca.ico */; };
+		22517B091B9852E800D43F23 /* Real Oviedo.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A7B1B9852E800D43F23 /* Real Oviedo.ico */; };
+		22517B0A1B9852E800D43F23 /* Real Sociedad.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A7C1B9852E800D43F23 /* Real Sociedad.ico */; };
+		22517B0B1B9852E800D43F23 /* Real Valladolid.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A7D1B9852E800D43F23 /* Real Valladolid.ico */; };
+		22517B0C1B9852E800D43F23 /* Real Zaragoza.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A7E1B9852E800D43F23 /* Real Zaragoza.ico */; };
+		22517B0D1B9852E800D43F23 /* Sevilla.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A7F1B9852E800D43F23 /* Sevilla.ico */; };
+		22517B0E1B9852E800D43F23 /* Spain 1.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A801B9852E800D43F23 /* Spain 1.ico */; };
+		22517B0F1B9852E800D43F23 /* Spain 2.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A811B9852E800D43F23 /* Spain 2.ico */; };
+		22517B101B9852E800D43F23 /* Sporting Gijon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A821B9852E800D43F23 /* Sporting Gijon.ico */; };
+		22517B111B9852E800D43F23 /* Stoke City.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A831B9852E800D43F23 /* Stoke City.ico */; };
+		22517B121B9852E800D43F23 /* Sunderland AFC.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A841B9852E800D43F23 /* Sunderland AFC.ico */; };
+		22517B131B9852E800D43F23 /* Swansea City.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A851B9852E800D43F23 /* Swansea City.ico */; };
+		22517B141B9852E800D43F23 /* Tenerife.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A861B9852E800D43F23 /* Tenerife.ico */; };
+		22517B151B9852E800D43F23 /* Tottenham Hotspur.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A871B9852E800D43F23 /* Tottenham Hotspur.ico */; };
+		22517B161B9852E800D43F23 /* UD Las Palmas.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A881B9852E800D43F23 /* UD Las Palmas.ico */; };
+		22517B171B9852E800D43F23 /* Valencia.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A891B9852E800D43F23 /* Valencia.ico */; };
+		22517B181B9852E800D43F23 /* Villareal.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A8A1B9852E800D43F23 /* Villareal.ico */; };
+		22517B191B9852E800D43F23 /* West Bromwich Albion.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A8B1B9852E800D43F23 /* West Bromwich Albion.ico */; };
+		22517B1A1B9852E800D43F23 /* Wigan Athletic.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A8C1B9852E800D43F23 /* Wigan Athletic.ico */; };
+		22517B1B1B9852E800D43F23 /* Wolverhampton Wanderers.ico in Resources */ = {isa = PBXBuildFile; fileRef = 22517A8D1B9852E800D43F23 /* Wolverhampton Wanderers.ico */; };
+		22517B1C1B9852E800D43F23 /* Statistics-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A8E1B9852E800D43F23 /* Statistics-50 (1).png */; };
+		22517B1D1B9852E800D43F23 /* tinge_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A8F1B9852E800D43F23 /* tinge_1.jpg */; };
+		22517B1E1B9852E800D43F23 /* Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A901B9852E800D43F23 /* Wallpaper.jpg */; };
+		22517B1F1B9852E800D43F23 /* Wallpaper3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A911B9852E800D43F23 /* Wallpaper3.jpeg */; };
+		22517B201B9852E800D43F23 /* wallpaper4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22517A921B9852E800D43F23 /* wallpaper4.jpg */; };
+		22517B211B9852E800D43F23 /* webbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 22517A931B9852E800D43F23 /* webbutton.png */; };
+		2279E99C1AA60BFB006B1B43 /* SegueX.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279E99B1AA60BFB006B1B43 /* SegueX.m */; };
+		2279E9A11AA62019006B1B43 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2279E9A01AA62019006B1B43 /* Entitlements.plist */; };
+		2279E9D81AA66811006B1B43 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279E9D71AA66811006B1B43 /* SelectViewController.m */; };
+		22E4A1161AA75E0A000A189A /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E4A1151AA75E0A000A189A /* ResultViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2212AC981AA5321600EC877E /* GuessThePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessThePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2212AC9C1AA5321600EC877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2212AC9D1AA5321600EC877E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2212AC9F1AA5321600EC877E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2212ACA01AA5321600EC877E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2212ACA21AA5321600EC877E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2212ACA31AA5321600EC877E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2212ACA61AA5321600EC877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2212ACA81AA5321600EC877E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2212ACAB1AA5321600EC877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2212ACB61AA5321600EC877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2212ACB71AA5321600EC877E /* GuessThePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessThePlayerTests.m; sourceTree = "<group>"; };
+		2212ACD01AA53DAC00EC877E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2212ACD11AA53DAC00EC877E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		22517A001B9851BF00D43F23 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		22517A031B9852E800D43F23 /* 11888.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11888.png; sourceTree = "<group>"; };
+		22517A041B9852E800D43F23 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		22517A051B9852E800D43F23 /* 5650.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5650.png; sourceTree = "<group>"; };
+		22517A061B9852E800D43F23 /* Black_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black_button.png; sourceTree = "<group>"; };
+		22517A071B9852E800D43F23 /* Car-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car-50.png"; sourceTree = "<group>"; };
+		22517A091B9852E800D43F23 /* Alfa Romeo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alfa Romeo.png"; sourceTree = "<group>"; };
+		22517A0A1B9852E800D43F23 /* Aston Martin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aston Martin.png"; sourceTree = "<group>"; };
+		22517A0B1B9852E800D43F23 /* Audi R8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi R8.jpg"; sourceTree = "<group>"; };
+		22517A0C1B9852E800D43F23 /* Audi RS6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi RS6.jpeg"; sourceTree = "<group>"; };
+		22517A0D1B9852E800D43F23 /* Audi RS7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi RS7.jpg"; sourceTree = "<group>"; };
+		22517A0E1B9852E800D43F23 /* Bentley Continental.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bentley Continental.jpeg"; sourceTree = "<group>"; };
+		22517A0F1B9852E800D43F23 /* Bentley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bentley.png; sourceTree = "<group>"; };
+		22517A101B9852E800D43F23 /* BMW M3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW M3.jpg"; sourceTree = "<group>"; };
+		22517A111B9852E800D43F23 /* BMW M5 F10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW M5 F10.jpg"; sourceTree = "<group>"; };
+		22517A121B9852E800D43F23 /* Bugatti Veyron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bugatti Veyron.jpg"; sourceTree = "<group>"; };
+		22517A131B9852E800D43F23 /* Bugatti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti.png; sourceTree = "<group>"; };
+		22517A141B9852E800D43F23 /* Buick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buick.png; sourceTree = "<group>"; };
+		22517A151B9852E800D43F23 /* Cadillac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cadillac.png; sourceTree = "<group>"; };
+		22517A161B9852E800D43F23 /* Chrysler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chrysler.png; sourceTree = "<group>"; };
+		22517A171B9852E800D43F23 /* Corvette Hennessey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corvette Hennessey.jpg"; sourceTree = "<group>"; };
+		22517A181B9852E800D43F23 /* Dodge Viper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Viper.jpg"; sourceTree = "<group>"; };
+		22517A191B9852E800D43F23 /* Dodge Viper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dodge Viper.png"; sourceTree = "<group>"; };
+		22517A1A1B9852E800D43F23 /* Dodge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dodge.png; sourceTree = "<group>"; };
+		22517A1B1B9852E800D43F23 /* Ferrari Italia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari Italia.jpg"; sourceTree = "<group>"; };
+		22517A1C1B9852E800D43F23 /* Ferrari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ferrari.png; sourceTree = "<group>"; };
+		22517A1D1B9852E800D43F23 /* Fiat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fiat.png; sourceTree = "<group>"; };
+		22517A1E1B9852E800D43F23 /* Ford Mustang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Mustang.jpg"; sourceTree = "<group>"; };
+		22517A1F1B9852E800D43F23 /* Ford Mustang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ford Mustang.png"; sourceTree = "<group>"; };
+		22517A201B9852E800D43F23 /* Honda Accord.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Honda Accord.jpg"; sourceTree = "<group>"; };
+		22517A211B9852E800D43F23 /* Honda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Honda.png; sourceTree = "<group>"; };
+		22517A221B9852E800D43F23 /* Hyundai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hyundai.png; sourceTree = "<group>"; };
+		22517A231B9852E800D43F23 /* Lamborghini Aventador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Aventador.jpg"; sourceTree = "<group>"; };
+		22517A241B9852E800D43F23 /* Lamborghini Huracan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Huracan.jpeg"; sourceTree = "<group>"; };
+		22517A251B9852E800D43F23 /* Lamborghini Veneno.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Veneno.jpeg"; sourceTree = "<group>"; };
+		22517A261B9852E800D43F23 /* Lamborghini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lamborghini.png; sourceTree = "<group>"; };
+		22517A271B9852E800D43F23 /* Lancia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lancia.png; sourceTree = "<group>"; };
+		22517A281B9852E800D43F23 /* Landrover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Landrover.png; sourceTree = "<group>"; };
+		22517A291B9852E800D43F23 /* Lotus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lotus.png; sourceTree = "<group>"; };
+		22517A2A1B9852E800D43F23 /* Maserati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maserati.png; sourceTree = "<group>"; };
+		22517A2B1B9852E800D43F23 /* Mazda 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mazda 6.jpg"; sourceTree = "<group>"; };
+		22517A2C1B9852E800D43F23 /* Mazda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mazda.png; sourceTree = "<group>"; };
+		22517A2D1B9852E800D43F23 /* Mercedes Benz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mercedes Benz.png"; sourceTree = "<group>"; };
+		22517A2E1B9852E800D43F23 /* MG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MG.png; sourceTree = "<group>"; };
+		22517A2F1B9852E800D43F23 /* Mini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mini.png; sourceTree = "<group>"; };
+		22517A301B9852E800D43F23 /* Mitsubishi Lancer .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mitsubishi Lancer .jpg"; sourceTree = "<group>"; };
+		22517A311B9852E800D43F23 /* Mitsubishi Pajero .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mitsubishi Pajero .jpg"; sourceTree = "<group>"; };
+		22517A321B9852E800D43F23 /* Mitsubishi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mitsubishi.png; sourceTree = "<group>"; };
+		22517A331B9852E800D43F23 /* Mrcedes CLS 63.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mrcedes CLS 63.jpg"; sourceTree = "<group>"; };
+		22517A341B9852E800D43F23 /* Nissan GT-R R35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan GT-R R35.jpg"; sourceTree = "<group>"; };
+		22517A351B9852E800D43F23 /* Pagani Zonda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pagani Zonda.jpg"; sourceTree = "<group>"; };
+		22517A361B9852E800D43F23 /* Porsche Carrera .jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porsche Carrera .jpeg"; sourceTree = "<group>"; };
+		22517A371B9852E800D43F23 /* Porsche Panamera .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porsche Panamera .jpg"; sourceTree = "<group>"; };
+		22517A381B9852E800D43F23 /* Skoda Octavia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Skoda Octavia.jpg"; sourceTree = "<group>"; };
+		22517A391B9852E800D43F23 /* Volvo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Volvo.png; sourceTree = "<group>"; };
+		22517A3A1B9852E800D43F23 /* VW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VW.png; sourceTree = "<group>"; };
+		22517A3C1B9852E800D43F23 /* Andorra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Andorra.png; sourceTree = "<group>"; };
+		22517A3D1B9852E800D43F23 /* Argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Argentina.png; sourceTree = "<group>"; };
+		22517A3E1B9852E800D43F23 /* Armenia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Armenia.png; sourceTree = "<group>"; };
+		22517A3F1B9852E800D43F23 /* Austria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Austria.png; sourceTree = "<group>"; };
+		22517A401B9852E800D43F23 /* Azerbaijan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Azerbaijan.png; sourceTree = "<group>"; };
+		22517A411B9852E800D43F23 /* Belarus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Belarus.png; sourceTree = "<group>"; };
+		22517A421B9852E800D43F23 /* Belgium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Belgium.png; sourceTree = "<group>"; };
+		22517A431B9852E800D43F23 /* Brazil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brazil.png; sourceTree = "<group>"; };
+		22517A441B9852E800D43F23 /* Bulgaria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bulgaria.png; sourceTree = "<group>"; };
+		22517A451B9852E800D43F23 /* Cameroon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cameroon.png; sourceTree = "<group>"; };
+		22517A461B9852E800D43F23 /* Canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Canada.png; sourceTree = "<group>"; };
+		22517A471B9852E800D43F23 /* Chili.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chili.png; sourceTree = "<group>"; };
+		22517A481B9852E800D43F23 /* China.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = China.png; sourceTree = "<group>"; };
+		22517A491B9852E800D43F23 /* Columbia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Columbia.png; sourceTree = "<group>"; };
+		22517A4A1B9852E800D43F23 /* Croatia 06-22-30-730.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Croatia 06-22-30-730.png"; sourceTree = "<group>"; };
+		22517A4B1B9852E800D43F23 /* Czech Republic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Czech Republic.png"; sourceTree = "<group>"; };
+		22517A4C1B9852E800D43F23 /* Espana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Espana.png; sourceTree = "<group>"; };
+		22517A4D1B9852E800D43F23 /* France.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = France.png; sourceTree = "<group>"; };
+		22517A4E1B9852E800D43F23 /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Germany.png; sourceTree = "<group>"; };
+		22517A4F1B9852E800D43F23 /* Hungary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hungary.png; sourceTree = "<group>"; };
+		22517A501B9852E800D43F23 /* Italy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Italy.png; sourceTree = "<group>"; };
+		22517A511B9852E800D43F23 /* Japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japan.png; sourceTree = "<group>"; };
+		22517A521B9852E800D43F23 /* Moldova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moldova.png; sourceTree = "<group>"; };
+		22517A531B9852E800D43F23 /* Netherland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Netherland.png; sourceTree = "<group>"; };
+		22517A541B9852E800D43F23 /* Portugal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portugal.png; sourceTree = "<group>"; };
+		22517A551B9852E800D43F23 /* Romania.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Romania.png; sourceTree = "<group>"; };
+		22517A561B9852E800D43F23 /* Serbia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Serbia.png; sourceTree = "<group>"; };
+		22517A571B9852E800D43F23 /* Sweden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sweden.png; sourceTree = "<group>"; };
+		22517A581B9852E800D43F23 /* Turkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turkey.png; sourceTree = "<group>"; };
+		22517A591B9852E800D43F23 /* Ukraine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ukraine.png; sourceTree = "<group>"; };
+		22517A5A1B9852E800D43F23 /* Flag-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag-50.png"; sourceTree = "<group>"; };
+		22517A5B1B9852E800D43F23 /* Football-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Football-50.png"; sourceTree = "<group>"; };
+		22517A5C1B9852E800D43F23 /* Play-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play-50 (1).png"; sourceTree = "<group>"; };
+		22517A5D1B9852E800D43F23 /* png-button-for-websites2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "png-button-for-websites2.png"; sourceTree = "<group>"; };
+		22517A5E1B9852E800D43F23 /* Settings-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-50 (1).png"; sourceTree = "<group>"; };
+		22517A601B9852E800D43F23 /* Arsenal FC.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Arsenal FC.ico"; sourceTree = "<group>"; };
+		22517A611B9852E800D43F23 /* Aston Villa.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Aston Villa.ico"; sourceTree = "<group>"; };
+		22517A621B9852E800D43F23 /* Athletic Bilbao.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Athletic Bilbao.ico"; sourceTree = "<group>"; };
+		22517A631B9852E800D43F23 /* Atletico Madrid.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Atletico Madrid.ico"; sourceTree = "<group>"; };
+		22517A641B9852E800D43F23 /* Blackburn Rovers.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Blackburn Rovers.ico"; sourceTree = "<group>"; };
+		22517A651B9852E800D43F23 /* Bolton Wanderers.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Bolton Wanderers.ico"; sourceTree = "<group>"; };
+		22517A661B9852E800D43F23 /* Celta de Vigo.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Celta de Vigo.ico"; sourceTree = "<group>"; };
+		22517A671B9852E800D43F23 /* Chelsea FC.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Chelsea FC.ico"; sourceTree = "<group>"; };
+		22517A681B9852E800D43F23 /* Deportivo Alaves.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Deportivo Alaves.ico"; sourceTree = "<group>"; };
+		22517A691B9852E800D43F23 /* Deportivo La Coruna.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Deportivo La Coruna.ico"; sourceTree = "<group>"; };
+		22517A6A1B9852E800D43F23 /* Espanyol.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Espanyol.ico; sourceTree = "<group>"; };
+		22517A6B1B9852E800D43F23 /* Everton FC.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Everton FC.ico"; sourceTree = "<group>"; };
+		22517A6C1B9852E800D43F23 /* FC Barcelona.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "FC Barcelona.ico"; sourceTree = "<group>"; };
+		22517A6D1B9852E800D43F23 /* Fulham FC.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Fulham FC.ico"; sourceTree = "<group>"; };
+		22517A6E1B9852E800D43F23 /* Getafe.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Getafe.ico; sourceTree = "<group>"; };
+		22517A6F1B9852E800D43F23 /* Liverpool FC.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Liverpool FC.ico"; sourceTree = "<group>"; };
+		22517A701B9852E800D43F23 /* Malaga CF.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Malaga CF.ico"; sourceTree = "<group>"; };
+		22517A711B9852E800D43F23 /* Manchester City.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Manchester City.ico"; sourceTree = "<group>"; };
+		22517A721B9852E800D43F23 /* Manchester United.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Manchester United.ico"; sourceTree = "<group>"; };
+		22517A731B9852E800D43F23 /* Newcastle United.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Newcastle United.ico"; sourceTree = "<group>"; };
+		22517A741B9852E800D43F23 /* Norwich City.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Norwich City.ico"; sourceTree = "<group>"; };
+		22517A751B9852E800D43F23 /* Osasuna.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Osasuna.ico; sourceTree = "<group>"; };
+		22517A761B9852E800D43F23 /* Queens Park Rangers.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Queens Park Rangers.ico"; sourceTree = "<group>"; };
+		22517A771B9852E800D43F23 /* Rayo Vallecano.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Rayo Vallecano.ico"; sourceTree = "<group>"; };
+		22517A781B9852E800D43F23 /* Real Betis.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Real Betis.ico"; sourceTree = "<group>"; };
+		22517A791B9852E800D43F23 /* Real Madrid.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Real Madrid.ico"; sourceTree = "<group>"; };
+		22517A7A1B9852E800D43F23 /* Real Mallorca.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Real Mallorca.ico"; sourceTree = "<group>"; };
+		22517A7B1B9852E800D43F23 /* Real Oviedo.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Real Oviedo.ico"; sourceTree = "<group>"; };
+		22517A7C1B9852E800D43F23 /* Real Sociedad.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Real Sociedad.ico"; sourceTree = "<group>"; };
+		22517A7D1B9852E800D43F23 /* Real Valladolid.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Real Valladolid.ico"; sourceTree = "<group>"; };
+		22517A7E1B9852E800D43F23 /* Real Zaragoza.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Real Zaragoza.ico"; sourceTree = "<group>"; };
+		22517A7F1B9852E800D43F23 /* Sevilla.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Sevilla.ico; sourceTree = "<group>"; };
+		22517A801B9852E800D43F23 /* Spain 1.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Spain 1.ico"; sourceTree = "<group>"; };
+		22517A811B9852E800D43F23 /* Spain 2.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Spain 2.ico"; sourceTree = "<group>"; };
+		22517A821B9852E800D43F23 /* Sporting Gijon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Sporting Gijon.ico"; sourceTree = "<group>"; };
+		22517A831B9852E800D43F23 /* Stoke City.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Stoke City.ico"; sourceTree = "<group>"; };
+		22517A841B9852E800D43F23 /* Sunderland AFC.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Sunderland AFC.ico"; sourceTree = "<group>"; };
+		22517A851B9852E800D43F23 /* Swansea City.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Swansea City.ico"; sourceTree = "<group>"; };
+		22517A861B9852E800D43F23 /* Tenerife.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Tenerife.ico; sourceTree = "<group>"; };
+		22517A871B9852E800D43F23 /* Tottenham Hotspur.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Tottenham Hotspur.ico"; sourceTree = "<group>"; };
+		22517A881B9852E800D43F23 /* UD Las Palmas.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "UD Las Palmas.ico"; sourceTree = "<group>"; };
+		22517A891B9852E800D43F23 /* Valencia.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Valencia.ico; sourceTree = "<group>"; };
+		22517A8A1B9852E800D43F23 /* Villareal.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Villareal.ico; sourceTree = "<group>"; };
+		22517A8B1B9852E800D43F23 /* West Bromwich Albion.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "West Bromwich Albion.ico"; sourceTree = "<group>"; };
+		22517A8C1B9852E800D43F23 /* Wigan Athletic.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Wigan Athletic.ico"; sourceTree = "<group>"; };
+		22517A8D1B9852E800D43F23 /* Wolverhampton Wanderers.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Wolverhampton Wanderers.ico"; sourceTree = "<group>"; };
+		22517A8E1B9852E800D43F23 /* Statistics-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Statistics-50 (1).png"; sourceTree = "<group>"; };
+		22517A8F1B9852E800D43F23 /* tinge_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tinge_1.jpg; sourceTree = "<group>"; };
+		22517A901B9852E800D43F23 /* Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wallpaper.jpg; sourceTree = "<group>"; };
+		22517A911B9852E800D43F23 /* Wallpaper3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wallpaper3.jpeg; sourceTree = "<group>"; };
+		22517A921B9852E800D43F23 /* wallpaper4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper4.jpg; sourceTree = "<group>"; };
+		22517A931B9852E800D43F23 /* webbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webbutton.png; sourceTree = "<group>"; };
+		2279E99A1AA60BFB006B1B43 /* SegueX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueX.h; sourceTree = "<group>"; };
+		2279E99B1AA60BFB006B1B43 /* SegueX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueX.m; sourceTree = "<group>"; };
+		2279E9A01AA62019006B1B43 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		2279E9D61AA66811006B1B43 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		2279E9D71AA66811006B1B43 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		22E4A1141AA75E0A000A189A /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		22E4A1151AA75E0A000A189A /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2212AC951AA5321600EC877E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2212AC8F1AA5321600EC877E = {
+			isa = PBXGroup;
+			children = (
+				2279E9A01AA62019006B1B43 /* Entitlements.plist */,
+				2212AC9A1AA5321600EC877E /* GuessThePlayer */,
+				2212ACB41AA5321600EC877E /* GuessThePlayerTests */,
+				2212AC991AA5321600EC877E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2212AC991AA5321600EC877E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2212AC981AA5321600EC877E /* GuessThePlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2212AC9A1AA5321600EC877E /* GuessThePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				22517A021B9852E800D43F23 /* Images */,
+				2212AC9F1AA5321600EC877E /* AppDelegate.h */,
+				2212ACA01AA5321600EC877E /* AppDelegate.m */,
+				2212ACA21AA5321600EC877E /* ViewController.h */,
+				2212ACA31AA5321600EC877E /* ViewController.m */,
+				2212ACD01AA53DAC00EC877E /* RootViewController.h */,
+				2212ACD11AA53DAC00EC877E /* RootViewController.m */,
+				2212ACA51AA5321600EC877E /* Main.storyboard */,
+				2212ACA81AA5321600EC877E /* Images.xcassets */,
+				2212ACAA1AA5321600EC877E /* LaunchScreen.xib */,
+				22517A001B9851BF00D43F23 /* sound.mp3 */,
+				2212AC9B1AA5321600EC877E /* Supporting Files */,
+				2279E99A1AA60BFB006B1B43 /* SegueX.h */,
+				2279E99B1AA60BFB006B1B43 /* SegueX.m */,
+				2279E9D61AA66811006B1B43 /* SelectViewController.h */,
+				2279E9D71AA66811006B1B43 /* SelectViewController.m */,
+				22E4A1141AA75E0A000A189A /* ResultViewController.h */,
+				22E4A1151AA75E0A000A189A /* ResultViewController.m */,
+			);
+			path = GuessThePlayer;
+			sourceTree = "<group>";
+		};
+		2212AC9B1AA5321600EC877E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2212AC9C1AA5321600EC877E /* Info.plist */,
+				2212AC9D1AA5321600EC877E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2212ACB41AA5321600EC877E /* GuessThePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2212ACB71AA5321600EC877E /* GuessThePlayerTests.m */,
+				2212ACB51AA5321600EC877E /* Supporting Files */,
+			);
+			path = GuessThePlayerTests;
+			sourceTree = "<group>";
+		};
+		2212ACB51AA5321600EC877E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2212ACB61AA5321600EC877E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22517A021B9852E800D43F23 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				22517A5F1B9852E800D43F23 /* Soccer */,
+				22517A081B9852E800D43F23 /* Cars */,
+				22517A3B1B9852E800D43F23 /* Countries */,
+				22517A031B9852E800D43F23 /* 11888.png */,
+				22517A041B9852E800D43F23 /* 5.jpg */,
+				22517A051B9852E800D43F23 /* 5650.png */,
+				22517A061B9852E800D43F23 /* Black_button.png */,
+				22517A071B9852E800D43F23 /* Car-50.png */,
+				22517A5A1B9852E800D43F23 /* Flag-50.png */,
+				22517A5B1B9852E800D43F23 /* Football-50.png */,
+				22517A5C1B9852E800D43F23 /* Play-50 (1).png */,
+				22517A5D1B9852E800D43F23 /* png-button-for-websites2.png */,
+				22517A5E1B9852E800D43F23 /* Settings-50 (1).png */,
+				22517A8E1B9852E800D43F23 /* Statistics-50 (1).png */,
+				22517A8F1B9852E800D43F23 /* tinge_1.jpg */,
+				22517A901B9852E800D43F23 /* Wallpaper.jpg */,
+				22517A911B9852E800D43F23 /* Wallpaper3.jpeg */,
+				22517A921B9852E800D43F23 /* wallpaper4.jpg */,
+				22517A931B9852E800D43F23 /* webbutton.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		22517A081B9852E800D43F23 /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				22517A091B9852E800D43F23 /* Alfa Romeo.png */,
+				22517A0A1B9852E800D43F23 /* Aston Martin.png */,
+				22517A0B1B9852E800D43F23 /* Audi R8.jpg */,
+				22517A0C1B9852E800D43F23 /* Audi RS6.jpeg */,
+				22517A0D1B9852E800D43F23 /* Audi RS7.jpg */,
+				22517A0E1B9852E800D43F23 /* Bentley Continental.jpeg */,
+				22517A0F1B9852E800D43F23 /* Bentley.png */,
+				22517A101B9852E800D43F23 /* BMW M3.jpg */,
+				22517A111B9852E800D43F23 /* BMW M5 F10.jpg */,
+				22517A121B9852E800D43F23 /* Bugatti Veyron.jpg */,
+				22517A131B9852E800D43F23 /* Bugatti.png */,
+				22517A141B9852E800D43F23 /* Buick.png */,
+				22517A151B9852E800D43F23 /* Cadillac.png */,
+				22517A161B9852E800D43F23 /* Chrysler.png */,
+				22517A171B9852E800D43F23 /* Corvette Hennessey.jpg */,
+				22517A181B9852E800D43F23 /* Dodge Viper.jpg */,
+				22517A191B9852E800D43F23 /* Dodge Viper.png */,
+				22517A1A1B9852E800D43F23 /* Dodge.png */,
+				22517A1B1B9852E800D43F23 /* Ferrari Italia.jpg */,
+				22517A1C1B9852E800D43F23 /* Ferrari.png */,
+				22517A1D1B9852E800D43F23 /* Fiat.png */,
+				22517A1E1B9852E800D43F23 /* Ford Mustang.jpg */,
+				22517A1F1B9852E800D43F23 /* Ford Mustang.png */,
+				22517A201B9852E800D43F23 /* Honda Accord.jpg */,
+				22517A211B9852E800D43F23 /* Honda.png */,
+				22517A221B9852E800D43F23 /* Hyundai.png */,
+				22517A231B9852E800D43F23 /* Lamborghini Aventador.jpg */,
+				22517A241B9852E800D43F23 /* Lamborghini Huracan.jpeg */,
+				22517A251B9852E800D43F23 /* Lamborghini Veneno.jpeg */,
+				22517A261B9852E800D43F23 /* Lamborghini.png */,
+				22517A271B9852E800D43F23 /* Lancia.png */,
+				22517A281B9852E800D43F23 /* Landrover.png */,
+				22517A291B9852E800D43F23 /* Lotus.png */,
+				22517A2A1B9852E800D43F23 /* Maserati.png */,
+				22517A2B1B9852E800D43F23 /* Mazda 6.jpg */,
+				22517A2C1B9852E800D43F23 /* Mazda.png */,
+				22517A2D1B9852E800D43F23 /* Mercedes Benz.png */,
+				22517A2E1B9852E800D43F23 /* MG.png */,
+				22517A2F1B9852E800D43F23 /* Mini.png */,
+				22517A301B9852E800D43F23 /* Mitsubishi Lancer .jpg */,
+				22517A311B9852E800D43F23 /* Mitsubishi Pajero .jpg */,
+				22517A321B9852E800D43F23 /* Mitsubishi.png */,
+				22517A331B9852E800D43F23 /* Mrcedes CLS 63.jpg */,
+				22517A341B9852E800D43F23 /* Nissan GT-R R35.jpg */,
+				22517A351B9852E800D43F23 /* Pagani Zonda.jpg */,
+				22517A361B9852E800D43F23 /* Porsche Carrera .jpeg */,
+				22517A371B9852E800D43F23 /* Porsche Panamera .jpg */,
+				22517A381B9852E800D43F23 /* Skoda Octavia.jpg */,
+				22517A391B9852E800D43F23 /* Volvo.png */,
+				22517A3A1B9852E800D43F23 /* VW.png */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+		22517A3B1B9852E800D43F23 /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				22517A3C1B9852E800D43F23 /* Andorra.png */,
+				22517A3D1B9852E800D43F23 /* Argentina.png */,
+				22517A3E1B9852E800D43F23 /* Armenia.png */,
+				22517A3F1B9852E800D43F23 /* Austria.png */,
+				22517A401B9852E800D43F23 /* Azerbaijan.png */,
+				22517A411B9852E800D43F23 /* Belarus.png */,
+				22517A421B9852E800D43F23 /* Belgium.png */,
+				22517A431B9852E800D43F23 /* Brazil.png */,
+				22517A441B9852E800D43F23 /* Bulgaria.png */,
+				22517A451B9852E800D43F23 /* Cameroon.png */,
+				22517A461B9852E800D43F23 /* Canada.png */,
+				22517A471B9852E800D43F23 /* Chili.png */,
+				22517A481B9852E800D43F23 /* China.png */,
+				22517A491B9852E800D43F23 /* Columbia.png */,
+				22517A4A1B9852E800D43F23 /* Croatia 06-22-30-730.png */,
+				22517A4B1B9852E800D43F23 /* Czech Republic.png */,
+				22517A4C1B9852E800D43F23 /* Espana.png */,
+				22517A4D1B9852E800D43F23 /* France.png */,
+				22517A4E1B9852E800D43F23 /* Germany.png */,
+				22517A4F1B9852E800D43F23 /* Hungary.png */,
+				22517A501B9852E800D43F23 /* Italy.png */,
+				22517A511B9852E800D43F23 /* Japan.png */,
+				22517A521B9852E800D43F23 /* Moldova.png */,
+				22517A531B9852E800D43F23 /* Netherland.png */,
+				22517A541B9852E800D43F23 /* Portugal.png */,
+				22517A551B9852E800D43F23 /* Romania.png */,
+				22517A561B9852E800D43F23 /* Serbia.png */,
+				22517A571B9852E800D43F23 /* Sweden.png */,
+				22517A581B9852E800D43F23 /* Turkey.png */,
+				22517A591B9852E800D43F23 /* Ukraine.png */,
+			);
+			path = Countries;
+			sourceTree = "<group>";
+		};
+		22517A5F1B9852E800D43F23 /* Soccer */ = {
+			isa = PBXGroup;
+			children = (
+				22517A601B9852E800D43F23 /* Arsenal FC.ico */,
+				22517A611B9852E800D43F23 /* Aston Villa.ico */,
+				22517A621B9852E800D43F23 /* Athletic Bilbao.ico */,
+				22517A631B9852E800D43F23 /* Atletico Madrid.ico */,
+				22517A641B9852E800D43F23 /* Blackburn Rovers.ico */,
+				22517A651B9852E800D43F23 /* Bolton Wanderers.ico */,
+				22517A661B9852E800D43F23 /* Celta de Vigo.ico */,
+				22517A671B9852E800D43F23 /* Chelsea FC.ico */,
+				22517A681B9852E800D43F23 /* Deportivo Alaves.ico */,
+				22517A691B9852E800D43F23 /* Deportivo La Coruna.ico */,
+				22517A6A1B9852E800D43F23 /* Espanyol.ico */,
+				22517A6B1B9852E800D43F23 /* Everton FC.ico */,
+				22517A6C1B9852E800D43F23 /* FC Barcelona.ico */,
+				22517A6D1B9852E800D43F23 /* Fulham FC.ico */,
+				22517A6E1B9852E800D43F23 /* Getafe.ico */,
+				22517A6F1B9852E800D43F23 /* Liverpool FC.ico */,
+				22517A701B9852E800D43F23 /* Malaga CF.ico */,
+				22517A711B9852E800D43F23 /* Manchester City.ico */,
+				22517A721B9852E800D43F23 /* Manchester United.ico */,
+				22517A731B9852E800D43F23 /* Newcastle United.ico */,
+				22517A741B9852E800D43F23 /* Norwich City.ico */,
+				22517A751B9852E800D43F23 /* Osasuna.ico */,
+				22517A761B9852E800D43F23 /* Queens Park Rangers.ico */,
+				22517A771B9852E800D43F23 /* Rayo Vallecano.ico */,
+				22517A781B9852E800D43F23 /* Real Betis.ico */,
+				22517A791B9852E800D43F23 /* Real Madrid.ico */,
+				22517A7A1B9852E800D43F23 /* Real Mallorca.ico */,
+				22517A7B1B9852E800D43F23 /* Real Oviedo.ico */,
+				22517A7C1B9852E800D43F23 /* Real Sociedad.ico */,
+				22517A7D1B9852E800D43F23 /* Real Valladolid.ico */,
+				22517A7E1B9852E800D43F23 /* Real Zaragoza.ico */,
+				22517A7F1B9852E800D43F23 /* Sevilla.ico */,
+				22517A801B9852E800D43F23 /* Spain 1.ico */,
+				22517A811B9852E800D43F23 /* Spain 2.ico */,
+				22517A821B9852E800D43F23 /* Sporting Gijon.ico */,
+				22517A831B9852E800D43F23 /* Stoke City.ico */,
+				22517A841B9852E800D43F23 /* Sunderland AFC.ico */,
+				22517A851B9852E800D43F23 /* Swansea City.ico */,
+				22517A861B9852E800D43F23 /* Tenerife.ico */,
+				22517A871B9852E800D43F23 /* Tottenham Hotspur.ico */,
+				22517A881B9852E800D43F23 /* UD Las Palmas.ico */,
+				22517A891B9852E800D43F23 /* Valencia.ico */,
+				22517A8A1B9852E800D43F23 /* Villareal.ico */,
+				22517A8B1B9852E800D43F23 /* West Bromwich Albion.ico */,
+				22517A8C1B9852E800D43F23 /* Wigan Athletic.ico */,
+				22517A8D1B9852E800D43F23 /* Wolverhampton Wanderers.ico */,
+			);
+			path = Soccer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2212AC971AA5321600EC877E /* GuessThePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2212ACBB1AA5321600EC877E /* Build configuration list for PBXNativeTarget "GuessThePlayer" */;
+			buildPhases = (
+				2212AC941AA5321600EC877E /* Sources */,
+				2212AC951AA5321600EC877E /* Frameworks */,
+				2212AC961AA5321600EC877E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessThePlayer;
+			productName = GuessThePlayer;
+			productReference = 2212AC981AA5321600EC877E /* GuessThePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2212AC901AA5321600EC877E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ruslan Palapa";
+				TargetAttributes = {
+					2212AC971AA5321600EC877E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 2212AC931AA5321600EC877E /* Build configuration list for PBXProject "GuessThePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2212AC8F1AA5321600EC877E;
+			productRefGroup = 2212AC991AA5321600EC877E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2212AC971AA5321600EC877E /* GuessThePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2212AC961AA5321600EC877E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22517B031B9852E800D43F23 /* Osasuna.ico in Resources */,
+				22517ABB1B9852E800D43F23 /* Mazda 6.jpg in Resources */,
+				22517B181B9852E800D43F23 /* Villareal.ico in Resources */,
+				22517AFB1B9852E800D43F23 /* Fulham FC.ico in Resources */,
+				22517AC11B9852E800D43F23 /* Mitsubishi Pajero .jpg in Resources */,
+				22517AA01B9852E800D43F23 /* BMW M3.jpg in Resources */,
+				22517AA21B9852E800D43F23 /* Bugatti Veyron.jpg in Resources */,
+				22517AE11B9852E800D43F23 /* Moldova.png in Resources */,
+				22517AB01B9852E800D43F23 /* Honda Accord.jpg in Resources */,
+				22517ACA1B9852E800D43F23 /* VW.png in Resources */,
+				22517AB81B9852E800D43F23 /* Landrover.png in Resources */,
+				22517B201B9852E800D43F23 /* wallpaper4.jpg in Resources */,
+				22517B131B9852E800D43F23 /* Swansea City.ico in Resources */,
+				22517AD51B9852E800D43F23 /* Canada.png in Resources */,
+				22517AB11B9852E800D43F23 /* Honda.png in Resources */,
+				22517AE81B9852E800D43F23 /* Ukraine.png in Resources */,
+				22517B0C1B9852E800D43F23 /* Real Zaragoza.ico in Resources */,
+				22517AA71B9852E800D43F23 /* Corvette Hennessey.jpg in Resources */,
+				22517AE01B9852E800D43F23 /* Japan.png in Resources */,
+				22517AAC1B9852E800D43F23 /* Ferrari.png in Resources */,
+				22517B091B9852E800D43F23 /* Real Oviedo.ico in Resources */,
+				22517B0E1B9852E800D43F23 /* Spain 1.ico in Resources */,
+				22517B1F1B9852E800D43F23 /* Wallpaper3.jpeg in Resources */,
+				22517AD31B9852E800D43F23 /* Bulgaria.png in Resources */,
+				22517ACB1B9852E800D43F23 /* Andorra.png in Resources */,
+				22517B051B9852E800D43F23 /* Rayo Vallecano.ico in Resources */,
+				22517ADF1B9852E800D43F23 /* Italy.png in Resources */,
+				22517B1C1B9852E800D43F23 /* Statistics-50 (1).png in Resources */,
+				22517AAF1B9852E800D43F23 /* Ford Mustang.png in Resources */,
+				22517B081B9852E800D43F23 /* Real Mallorca.ico in Resources */,
+				22517AB71B9852E800D43F23 /* Lancia.png in Resources */,
+				22517AEE1B9852E800D43F23 /* Arsenal FC.ico in Resources */,
+				22517B021B9852E800D43F23 /* Norwich City.ico in Resources */,
+				22517A9A1B9852E800D43F23 /* Aston Martin.png in Resources */,
+				22517AF41B9852E800D43F23 /* Celta de Vigo.ico in Resources */,
+				22517AC41B9852E800D43F23 /* Nissan GT-R R35.jpg in Resources */,
+				22517AD01B9852E800D43F23 /* Belarus.png in Resources */,
+				22517B1E1B9852E800D43F23 /* Wallpaper.jpg in Resources */,
+				22517AF71B9852E800D43F23 /* Deportivo La Coruna.ico in Resources */,
+				22517AC61B9852E800D43F23 /* Porsche Carrera .jpeg in Resources */,
+				22517AC81B9852E800D43F23 /* Skoda Octavia.jpg in Resources */,
+				22517B121B9852E800D43F23 /* Sunderland AFC.ico in Resources */,
+				22517AD11B9852E800D43F23 /* Belgium.png in Resources */,
+				2212ACA71AA5321600EC877E /* Main.storyboard in Resources */,
+				22517AB51B9852E800D43F23 /* Lamborghini Veneno.jpeg in Resources */,
+				22517ABA1B9852E800D43F23 /* Maserati.png in Resources */,
+				22517B101B9852E800D43F23 /* Sporting Gijon.ico in Resources */,
+				22517A9D1B9852E800D43F23 /* Audi RS7.jpg in Resources */,
+				22517A9F1B9852E800D43F23 /* Bentley.png in Resources */,
+				22517AD21B9852E800D43F23 /* Brazil.png in Resources */,
+				22517AF81B9852E800D43F23 /* Espanyol.ico in Resources */,
+				22517AF31B9852E800D43F23 /* Bolton Wanderers.ico in Resources */,
+				22517AA61B9852E800D43F23 /* Chrysler.png in Resources */,
+				22517AA51B9852E800D43F23 /* Cadillac.png in Resources */,
+				22517B151B9852E800D43F23 /* Tottenham Hotspur.ico in Resources */,
+				22517AFE1B9852E800D43F23 /* Malaga CF.ico in Resources */,
+				22517AE41B9852E800D43F23 /* Romania.png in Resources */,
+				22517ACF1B9852E800D43F23 /* Azerbaijan.png in Resources */,
+				22517AFC1B9852E800D43F23 /* Getafe.ico in Resources */,
+				22517AAD1B9852E800D43F23 /* Fiat.png in Resources */,
+				22517A9E1B9852E800D43F23 /* Bentley Continental.jpeg in Resources */,
+				22517B141B9852E800D43F23 /* Tenerife.ico in Resources */,
+				2212ACAC1AA5321600EC877E /* LaunchScreen.xib in Resources */,
+				22517B161B9852E800D43F23 /* UD Las Palmas.ico in Resources */,
+				22517B0F1B9852E800D43F23 /* Spain 2.ico in Resources */,
+				22517AA11B9852E800D43F23 /* BMW M5 F10.jpg in Resources */,
+				22517AEA1B9852E800D43F23 /* Football-50.png in Resources */,
+				22517AA91B9852E800D43F23 /* Dodge Viper.png in Resources */,
+				22517ACC1B9852E800D43F23 /* Argentina.png in Resources */,
+				22517AFF1B9852E800D43F23 /* Manchester City.ico in Resources */,
+				2279E9A11AA62019006B1B43 /* Entitlements.plist in Resources */,
+				22517AE21B9852E800D43F23 /* Netherland.png in Resources */,
+				22517AAE1B9852E800D43F23 /* Ford Mustang.jpg in Resources */,
+				22517AC31B9852E800D43F23 /* Mrcedes CLS 63.jpg in Resources */,
+				22517A961B9852E800D43F23 /* 5650.png in Resources */,
+				22517AA31B9852E800D43F23 /* Bugatti.png in Resources */,
+				22517B171B9852E800D43F23 /* Valencia.ico in Resources */,
+				22517A971B9852E800D43F23 /* Black_button.png in Resources */,
+				22517AA81B9852E800D43F23 /* Dodge Viper.jpg in Resources */,
+				22517B0B1B9852E800D43F23 /* Real Valladolid.ico in Resources */,
+				22517A951B9852E800D43F23 /* 5.jpg in Resources */,
+				22517AEF1B9852E800D43F23 /* Aston Villa.ico in Resources */,
+				22517AD71B9852E800D43F23 /* China.png in Resources */,
+				22517ADC1B9852E800D43F23 /* France.png in Resources */,
+				22517AE51B9852E800D43F23 /* Serbia.png in Resources */,
+				22517AA41B9852E800D43F23 /* Buick.png in Resources */,
+				22517AB61B9852E800D43F23 /* Lamborghini.png in Resources */,
+				22517AB31B9852E800D43F23 /* Lamborghini Aventador.jpg in Resources */,
+				22517B001B9852E800D43F23 /* Manchester United.ico in Resources */,
+				22517ADD1B9852E800D43F23 /* Germany.png in Resources */,
+				22517AFA1B9852E800D43F23 /* FC Barcelona.ico in Resources */,
+				22517AB21B9852E800D43F23 /* Hyundai.png in Resources */,
+				22517AD91B9852E800D43F23 /* Croatia 06-22-30-730.png in Resources */,
+				22517AF61B9852E800D43F23 /* Deportivo Alaves.ico in Resources */,
+				22517ABD1B9852E800D43F23 /* Mercedes Benz.png in Resources */,
+				22517AC51B9852E800D43F23 /* Pagani Zonda.jpg in Resources */,
+				22517AC91B9852E800D43F23 /* Volvo.png in Resources */,
+				22517B211B9852E800D43F23 /* webbutton.png in Resources */,
+				22517AB91B9852E800D43F23 /* Lotus.png in Resources */,
+				22517AE91B9852E800D43F23 /* Flag-50.png in Resources */,
+				22517B111B9852E800D43F23 /* Stoke City.ico in Resources */,
+				22517B011B9852E800D43F23 /* Newcastle United.ico in Resources */,
+				22517AF11B9852E800D43F23 /* Atletico Madrid.ico in Resources */,
+				22517AD41B9852E800D43F23 /* Cameroon.png in Resources */,
+				22517AC21B9852E800D43F23 /* Mitsubishi.png in Resources */,
+				22517AF91B9852E800D43F23 /* Everton FC.ico in Resources */,
+				22517ADA1B9852E800D43F23 /* Czech Republic.png in Resources */,
+				22517AD81B9852E800D43F23 /* Columbia.png in Resources */,
+				2212ACA91AA5321600EC877E /* Images.xcassets in Resources */,
+				22517AE31B9852E800D43F23 /* Portugal.png in Resources */,
+				22517B191B9852E800D43F23 /* West Bromwich Albion.ico in Resources */,
+				22517B061B9852E800D43F23 /* Real Betis.ico in Resources */,
+				22517AF21B9852E800D43F23 /* Blackburn Rovers.ico in Resources */,
+				22517ABC1B9852E800D43F23 /* Mazda.png in Resources */,
+				22517ADE1B9852E800D43F23 /* Hungary.png in Resources */,
+				22517B0D1B9852E800D43F23 /* Sevilla.ico in Resources */,
+				22517A9C1B9852E800D43F23 /* Audi RS6.jpeg in Resources */,
+				22517AEB1B9852E800D43F23 /* Play-50 (1).png in Resources */,
+				22517A941B9852E800D43F23 /* 11888.png in Resources */,
+				22517AC71B9852E800D43F23 /* Porsche Panamera .jpg in Resources */,
+				22517B1D1B9852E800D43F23 /* tinge_1.jpg in Resources */,
+				22517B041B9852E800D43F23 /* Queens Park Rangers.ico in Resources */,
+				22517AD61B9852E800D43F23 /* Chili.png in Resources */,
+				22517B1B1B9852E800D43F23 /* Wolverhampton Wanderers.ico in Resources */,
+				22517ABF1B9852E800D43F23 /* Mini.png in Resources */,
+				22517AE61B9852E800D43F23 /* Sweden.png in Resources */,
+				22517AED1B9852E800D43F23 /* Settings-50 (1).png in Resources */,
+				22517AF01B9852E800D43F23 /* Athletic Bilbao.ico in Resources */,
+				22517B0A1B9852E800D43F23 /* Real Sociedad.ico in Resources */,
+				22517AB41B9852E800D43F23 /* Lamborghini Huracan.jpeg in Resources */,
+				22517AEC1B9852E800D43F23 /* png-button-for-websites2.png in Resources */,
+				22517AF51B9852E800D43F23 /* Chelsea FC.ico in Resources */,
+				22517AFD1B9852E800D43F23 /* Liverpool FC.ico in Resources */,
+				22517B1A1B9852E800D43F23 /* Wigan Athletic.ico in Resources */,
+				22517A981B9852E800D43F23 /* Car-50.png in Resources */,
+				22517A991B9852E800D43F23 /* Alfa Romeo.png in Resources */,
+				22517A9B1B9852E800D43F23 /* Audi R8.jpg in Resources */,
+				22517A011B9851BF00D43F23 /* sound.mp3 in Resources */,
+				22517B071B9852E800D43F23 /* Real Madrid.ico in Resources */,
+				22517ACE1B9852E800D43F23 /* Austria.png in Resources */,
+				22517ACD1B9852E800D43F23 /* Armenia.png in Resources */,
+				22517AC01B9852E800D43F23 /* Mitsubishi Lancer .jpg in Resources */,
+				22517AAA1B9852E800D43F23 /* Dodge.png in Resources */,
+				22517ADB1B9852E800D43F23 /* Espana.png in Resources */,
+				22517ABE1B9852E800D43F23 /* MG.png in Resources */,
+				22517AE71B9852E800D43F23 /* Turkey.png in Resources */,
+				22517AAB1B9852E800D43F23 /* Ferrari Italia.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2212AC941AA5321600EC877E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279E9D81AA66811006B1B43 /* SelectViewController.m in Sources */,
+				22E4A1161AA75E0A000A189A /* ResultViewController.m in Sources */,
+				2212ACA41AA5321600EC877E /* ViewController.m in Sources */,
+				2279E99C1AA60BFB006B1B43 /* SegueX.m in Sources */,
+				2212ACA11AA5321600EC877E /* AppDelegate.m in Sources */,
+				2212ACD21AA53DAC00EC877E /* RootViewController.m in Sources */,
+				2212AC9E1AA5321600EC877E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2212ACA51AA5321600EC877E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2212ACA61AA5321600EC877E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2212ACAA1AA5321600EC877E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2212ACAB1AA5321600EC877E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2212ACB91AA5321600EC877E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2212ACBA1AA5321600EC877E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2212ACBC1AA5321600EC877E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = GuessThePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2212ACBD1AA5321600EC877E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = GuessThePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2212AC931AA5321600EC877E /* Build configuration list for PBXProject "GuessThePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2212ACB91AA5321600EC877E /* Debug */,
+				2212ACBA1AA5321600EC877E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2212ACBB1AA5321600EC877E /* Build configuration list for PBXNativeTarget "GuessThePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2212ACBC1AA5321600EC877E /* Debug */,
+				2212ACBD1AA5321600EC877E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2212AC901AA5321600EC877E /* Project object */;
+}
